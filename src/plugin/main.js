@@ -1,3 +1,4 @@
 // plugin/main.js
-export { default as VuePincodeInput } from './PincodeInput.vue'
+import VuePincodeInput from "./PincodeInput.vue";
+export default VuePincodeInput
 

@@ -2,9 +2,9 @@
 
 > Smart pincode input component for Vue.js v3. [Live demo](https://siriphonnott.github.io/vue-pincode-input/)
 
-![vue3-pincode-input](https://github.com/siriphonNott/vue-pincode-input/banner.png)
+![vue3-pincode-input](https://siriphonnott.github.io/vue-pincode-input/banner.png)
 
-Demo on [GitHub Pages](https://github.com/siriphonNott/vue-pincode-input)
+Demo on [GitHub Pages](https://siriphonnott.github.io/vue-pincode-input/)
 
 ## Features
 
