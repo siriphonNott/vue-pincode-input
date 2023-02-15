@@ -7,5 +7,5 @@ npm version patch
 npm run build
 
 git push --tags
-# git push
+git push
 npm publish
