@@ -1,27 +1,39 @@
 # vue3-pincode-input
 
-> Smart pincode input component for Vue.js v3. [Live demo](https://siriphonnott.github.io/vue-pincode-input/)
+> Pincode input component for Vue 3 [Live demo](https://siriphonnott.github.io/vue-pincode-input/)
 
 ![vue3-pincode-input](https://siriphonnott.github.io/vue-pincode-input/banner.png)
+
+
+# Table of Contents
+
+* [___Demo___](##demo)
+* [___Features___](##features)
+* [___Usage___](##usage)
+* [___Props___](##props)
+* [___Authors && Contributors___](##authors-&&-Contributors)
+* [___License___](##license)
+
+## Demo
 
 Demo on [GitHub Pages](https://siriphonnott.github.io/vue-pincode-input/)
 
 ## Features
 
-- configurable length (pincode lenght)
-- override-friendly styles
-- auto moving focus when filling
-- auto moving focus when deleting
-- call for native numeric keyboard on mobile
-- optional secure mode (password input type)
-- can add class for pincode input
-- can add class for use when pincode success
-
+- Configurable length (pincode lenght)
+- Override-friendly styles
+- Auto moving focus when filling
+- Auto moving focus when deleting
+- Call for native numeric keyboard on mobile
+- Optional secure mode (password input type)
+- Can add class for pincode input
+- Can add success class of pincode input
+- Support Vue 3 only
 
 ## Usage
 
 ```
-  npm i --save vue3-pincode-input
+  npm i vue3-pincode-input
 ```
 
 or with yarn
@@ -30,7 +42,7 @@ or with yarn
   yarn add vue3-pincode-input
 ```
 
-Then in any component:
+Import for use component:
 
 ```
 import VuePincodeInput from 'vue3-pincode-input';
@@ -38,6 +50,18 @@ import VuePincodeInput from 'vue3-pincode-input';
 
 ```
 <VuePincodeInput v-model="pincode" />
+```
+
+Also can use your class for custom component
+
+```
+<VuePincodeInput
+  v-model="pincode"
+  input-class="rounded-full w-18 h-18 text-3xl text-gray-500 border-2 border-gray-200 shadow"
+  success-class="border-2 border-green-400"
+  spacing-class="mr-2"
+  autofocus
+/>
 ```
 
 **Attention**: you should use _'input.vue3-pincode-input'_ instead _'.vue3-pincode-input'_ in order to rule specificity was higher
@@ -110,3 +134,11 @@ input.vue3-pincode-input {
         </tr>
     </tbody>
 </table>
+
+## Authors && Contributors
+
+- [siriphonnot](https://github.com/siriphonnott)
+
+## License
+
+[The MIT License](http://opensource.org/licenses/MIT)
