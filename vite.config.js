@@ -16,32 +16,32 @@ export default defineConfig({
     port: 3400,
     host: "localhost",
   },
-  build: {
-    lib: {
-      // Could also be a dictionary or array of multiple entry points
-      entry: resolve(__dirname, "src/plugin/main.js"),
-      name: "VuePincodeInput",
-      // the proper extensions will be added
-      fileName: "vue-pincode-input",
-    },
-    rollupOptions: {
-      cssCodeSplit: false,
-      // make sure to externalize deps that shouldn't be bundled
-      // into your library
-      external: ["vue"],
-      output: {
-        // Provide global variables to use in the UMD build
-        // for externalized deps
-        globals: {
-          vue: "Vue",
-        },
-        // Rename
-        assetFileNames: (assetInfo) => {
-          if (assetInfo.name == 'style.css')
-            return 'main.css';
-          return assetInfo.name;
-        },
-      },
-    },
-  },
+  // build: {
+  //   lib: {
+  //     // Could also be a dictionary or array of multiple entry points
+  //     entry: resolve(__dirname, "src/plugin/main.js"),
+  //     name: "VuePincodeInput",
+  //     // the proper extensions will be added
+  //     fileName: "vue-pincode-input",
+  //   },
+  //   rollupOptions: {
+  //     cssCodeSplit: false,
+  //     // make sure to externalize deps that shouldn't be bundled
+  //     // into your library
+  //     external: ["vue"],
+  //     output: {
+  //       // Provide global variables to use in the UMD build
+  //       // for externalized deps
+  //       globals: {
+  //         vue: "Vue",
+  //       },
+  //       // Rename
+  //       assetFileNames: (assetInfo) => {
+  //         if (assetInfo.name == 'style.css')
+  //           return 'main.css';
+  //         return assetInfo.name;
+  //       },
+  //     },
+  //   },
+  // },
 });

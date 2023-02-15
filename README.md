@@ -1,8 +1,8 @@
 # vue3-pincode-input
 
-> Smart pincode input component for Vue.js v3. [Live demo](https://cdn.rawgit.com/lsycxyj/vue-l-carousel/master/demo/index.html)
+> Smart pincode input component for Vue.js v3. [Live demo](https://siriphonnott.github.io/vue-pincode-input/)
 
-![vue3-pincode-input](https://miro.medium.com/max/918/1*s2vCxDgTCjVt8AyAyFIDhw.png)
+![vue3-pincode-input](https://github.com/siriphonNott/vue-pincode-input/banner.png)
 
 Demo on [GitHub Pages](https://github.com/siriphonNott/vue-pincode-input)
 
@@ -17,9 +17,6 @@ Demo on [GitHub Pages](https://github.com/siriphonNott/vue-pincode-input)
 - can add class for pincode input
 - can add class for use when pincode success
 
-## Attention!
-
-Styles that component have are written just for demo. But that styles are override-friendly, so you can write any styles you want.
 
 ## Usage
 
