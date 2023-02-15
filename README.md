@@ -7,12 +7,12 @@
 
 # Table of Contents
 
-* [___Demo___](##demo)
-* [___Features___](##features)
-* [___Usage___](##usage)
-* [___Props___](##props)
-* [___Authors && Contributors___](##authors-&&-Contributors)
-* [___License___](##license)
+* [___Demo___](#demo)
+* [___Features___](#features)
+* [___Usage___](#usage)
+* [___Props___](#props)
+* [___Authors && Contributors___](#authors-&&-Contributors)
+* [___License___](#license)
 
 ## Demo
 
@@ -20,8 +20,10 @@ Demo on [GitHub Pages](https://siriphonnott.github.io/vue-pincode-input/)
 
 ## Features
 
-- Configurable length (pincode lenght)
+- Be lightweight, powerful and easy to use
+- Support for add your custom class
 - Override-friendly styles
+- Configurable length (pincode lenght)
 - Auto moving focus when filling
 - Auto moving focus when deleting
 - Call for native numeric keyboard on mobile
@@ -52,7 +54,7 @@ import VuePincodeInput from 'vue3-pincode-input';
 <VuePincodeInput v-model="pincode" />
 ```
 
-Also can use your class for custom component
+Also can use your class for custom component [See more props](#props)
 
 ```
 <VuePincodeInput
