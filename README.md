@@ -5,7 +5,7 @@
 ![vue3-pincode-input](https://siriphonnott.github.io/vue-pincode-input/banner.png)
 
 
-# Table of Contents
+## Table of Contents
 
 * [___Demo___](#demo)
 * [___Features___](#features)
@@ -23,7 +23,7 @@ Demo on [GitHub Pages](https://siriphonnott.github.io/vue-pincode-input/)
 - Be lightweight, powerful and easy to use
 - Support for add your custom class
 - Override-friendly styles
-- Configurable length (pincode lenght)
+- Configurable length (pincode length)
 - Auto moving focus when filling
 - Auto moving focus when deleting
 - Call for native numeric keyboard on mobile
@@ -66,15 +66,15 @@ Also can use your class for custom component [See more props](#props)
 />
 ```
 
-**Attention**: you should use _'input.vue3-pincode-input'_ instead _'.vue3-pincode-input'_ in order to rule specificity was higher
+**Attention**: you should use _'input.vue-pincode-input'_ instead _'.vue-pincode-input'_ in order to rule specificity was higher
 
 ```
 <style>
-div.vue3-pincode-input-wrapper {
+div.vue-pincode-input-wrapper {
   // any styles you want for wrapper
 }
 
-input.vue3-pincode-input {
+input.vue-pincode-input {
   // any styles you want for each input
 }
 <style>
